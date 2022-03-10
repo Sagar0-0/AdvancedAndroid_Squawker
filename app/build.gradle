@@ -38,3 +38,6 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-messaging:23.0.0'
 }
+// Apply the Google Services plugin. Make sure to add the google-services.json file in the app
+// folder. You download it from the Firebase console
+apply plugin: 'com.google.gms.google-services'
